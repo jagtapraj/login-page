@@ -1,0 +1,70 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
+body{
+    /* display: block; */
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover  ;
+    background-position: center;
+    /* background-color: cyan; */
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-1{
+    width :25%;
+    position: absolute;
+    top: 50%;
+    left: 52%; 
+    transform: translate(-50%,-50%);
+    color: white;
+    
+
+}
+.box-1 h1{
+    float: left;
+    margin-bottom: 250px ;
+    text-shadow: 2px 10px 4px black;
+    font-size: 50px;
+    padding: 12px 0;
+    margin-left: 15%;
+    font-style: normal;
+    
+    
+    
+}
+.textbox{
+    margin: 8px 0;
+    padding: 8px 0;
+    
+    width: 100%;
+}
+    
+    .textbox input{
+        width: 80%;
+        box-shadow: 2px 5px 4px black;
+        border-bottom: 1px solid rgb(7, 7, 7);
+        background: black;
+        t
+        outline: none;
+        color: white;
+        
+    }
+    button input{
+        background: none;
+        outline: none;
+        border: none;
+    }
+    ::placeholder{
+        color: white;
+        opacity: 0.5;
+        
+    }
+    .button{
+        box-shadow: 2px 5px 4px black;
+        margin-left: 15%;
+        background: rgb(8, 8, 8);
+        width: 60%;
+        border-color: black;
+        border-radius: 5px;
+        color: white;
+        
+    }
+    .button:hover {background-color: #423d3db4;}
